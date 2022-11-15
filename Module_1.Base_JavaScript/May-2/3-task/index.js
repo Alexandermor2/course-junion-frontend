@@ -1,10 +1,14 @@
+//1. Примитивы (простые типы) - 7
+//2. Не Примитивы сложные тип) - 1 (object)
+
+
 //1.string
 const favoriteDrink ='Beer';
 console.log( favoriteDrink);
 
 //2.number
-const numberofCups = 2;
-console.log(numberofCups);
+const numberOfCups = 2;
+console.log(numberOfCups);
 
 //3. boolean
 const isColdDrink = true;
@@ -27,4 +31,9 @@ const drink = {
 console.log(drink);
 
 //7. symbol
+const id =Symbol('id');
+console.log(id);
 
+//8. bigint - большое число -(2^53-1)
+const bigIntNumber = 100n;
+console.log(bigIntNumber);
