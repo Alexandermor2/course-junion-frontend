@@ -14,7 +14,7 @@ console.log(numberOfCups);
 const isColdDrink = true;
 console.log(isColdDrink);
 
-//5. null - пусто, значение не известно
+//4. null - пусто, значение не известно
 const studentFavoriteDrink = null;
 console.log(studentFavoriteDrink);
 
